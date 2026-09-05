@@ -1,0 +1,8 @@
+{
+    "products" : {
+        "coke" : 25,
+        "max" : 1,
+        "tuna" : 35,
+        "sardines" : 35
+    }
+}
