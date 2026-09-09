@@ -1,5 +1,8 @@
 import json
 
+# function is creating a block of code and executes
+# the code if the function is called
+
 def add(num1, num2):
     # return num1 + num2
     print(num1 + num2)
