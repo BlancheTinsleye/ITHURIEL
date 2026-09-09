@@ -1,6 +1,6 @@
 # ITHURIEL
 
-Check the intro folder and read the files in this order
+Check the **intro **folder and read the files in this order
 
 1. intro.py
 2. conditionals.py
