@@ -1,18 +1,32 @@
-# num = 6
+# Before the conditionals, learn the comparison
+#   < less than
+#   > greater than
+#   == is equal to
+#   != not equal to
 
-# < > == or and !
+# Logicals
+# and - both condition must be true to return true
+# or - one of two or more condition must be true to return true
+# not - just not
 
-# if num == 4:
-#     print(f"{num} is equal to 4")
-# else:
-#     print(f"{num} is not equal to 4")
+# Conditionals: if else
+# var_bool = True
+var_bool = False
 
+if var_bool == True:
+    print("Variable Bool: ", var_bool)
+else:
+    print("Variable Bool: ", var_bool)
 
-# Arithmetic Operators
-num1 = 11
-num2 = 3
+if var_bool != True:
+    print("False: ", var_bool)
+else:
+    print("True: ", var_bool)
+
 
 # Example arithmetic
+num1 = 12
+num2 = 3
 sum = num1 + num2 # 15
 difference = num1 - num2
 product = num1 * num2
@@ -21,6 +35,7 @@ quotient = num1 / num2
 exponential = 5 ** 3
 floordivision = 20 // 7 # answer 2
 
+# uncomment to see the output
 # print(sum)
 # print(difference)
 # print(product)
@@ -31,30 +46,8 @@ floordivision = 20 // 7 # answer 2
 # print(exponential)
 # print(floordivision)
 
-# if floordivision == 2:
-#     print("mali")
-# else:
-#     print("tama")
 
-# temp = 27
-
-# if temp == 29:
-#     print("getting hot weather")
-# elif temp <= 16:
-#     print("Cold weather")
-# elif temp < 29:
-#     print("fair weather")
-# else:
-#     print(False)
-
-# if 1 == 1:
-#     if 2 == 2:
-#         pass
-#     else:
-#         pass
-# else:
-#     pass
-
+# example of if elif else statements
 x = 14
 
 if x > 10:
@@ -69,14 +62,3 @@ if x > 10:
 
     else:
         print("but not above 20.")
-
-
-
-
-# if 
-# ----
-# ------if
-# ----------
-  
-
-
